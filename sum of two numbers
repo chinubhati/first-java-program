@@ -1,0 +1,15 @@
+package Introduction;
+import java.util.Scanner;
+public class Sumoftwointegers {
+    public static void main(String[] args) {
+    	Scanner input = new Scanner(System.in);
+        System.out.print("please enter no1:");
+    	int no1 = input.nextInt();
+    	System.out.print("please enter no2:");
+    	int no2 = input.nextInt();
+    	
+    	int sum = no1 + no2;
+    	System.out.println("the required sum is="+ sum);
+    	
+    }
+}
